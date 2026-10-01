@@ -1,0 +1,2 @@
+# C3-2026-SCV6
+Repo for CENFOTEC SOFT-01 Course
