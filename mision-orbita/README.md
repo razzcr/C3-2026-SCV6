@@ -22,7 +22,7 @@ mision-orbita/
 │   ├── ejercicio3_soporte_tripulacion.py
 │   └── ejercicio4_autorizacion.py
 ├── documentacion/
-│   └── avance1_documentacion.docx
+│   └── avance1_documentacion.pdf
 └── README.md
 ```
 
@@ -56,7 +56,7 @@ Cada programa solicitará los datos necesarios por consola (números enteros pos
 
 ## Documentación
 
-La documentación completa del avance se encuentra en [`documentacion/avance1_documentacion.docx`](documentacion/avance1_documentacion.docx), e incluye portada, tablas de variables, diagramas de flujo, código fuente y 18 casos de prueba con capturas de consola para los cuatro ejercicios.
+La documentación completa del avance se encuentra en [`documentacion/avance1_documentacion.pdf`](documentacion/avance1_documentacion.pdf), e incluye portada, tablas de variables, diagramas de flujo, código fuente y 18 casos de prueba con capturas de consola para los cuatro ejercicios.
 
 ## Convenciones y restricciones de código
 
