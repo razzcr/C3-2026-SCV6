@@ -1,7 +1,7 @@
 # Curso: SOFT-01 Principios de Programación 1 (SCV6)
 # Archivo: ejercicio3_soporte_tripulacion.py
 # Integrantes: Carlos Esteban Monge Barquero
-# Fecha: 2026-10-14
+# Fecha: 2026-10-05
 # Versión: 1.0
 # Descripción: Determina si la nave posee oxígeno y provisiones suficientes para sostener a la tripulación durante la misión.
 # Repo: https://github.com/razzcr/C3-2026-SCV6/tree/main/mision-orbita

@@ -1,7 +1,7 @@
 # Curso: SOFT-01 Principios de Programación 1 (SCV6)
 # Archivo: ejercicio2_combustible.py
 # Integrantes: Carlos Esteban Monge Barquero
-# Fecha: 2026-10-14
+# Fecha: 2026-10-04
 # Versión: 1.0
 # Descripción: Verifica si el combustible disponible alcanza para el viaje de ida y regreso más la reserva de emergencia, e informa el margen disponible.
 # Repo: https://github.com/razzcr/C3-2026-SCV6/tree/main/mision-orbita
