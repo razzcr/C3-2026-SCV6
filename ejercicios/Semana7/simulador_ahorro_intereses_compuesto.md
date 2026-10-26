@@ -12,21 +12,25 @@ flowchart TD
     I --> J{"balance < savings_goal<br/>y months < MAX_MONTHS?"}
 
     J -->|Sí| K["balance = balance + balance * monthly_rate"]
-    J -->|No| O{"balance >= savings_goal?"}
+    J -->|No| O1{"balance >= savings_goal<br/>y months == 0?"}
 
     K --> L["balance = balance + monthly_contribution"]
     L --> M["months = months + 1"]
     M --> N[/"Mostrar months y balance"/]
     N --> J
 
-    O -->|Sí| P[/"Mostrar: mes en que se alcanzó la meta = months"/]
-    O -->|No| Q["shortfall = savings_goal - balance"]
+    O1 -->|Sí| P1[/"Mostrar: el ahorro ya cumple la meta"/]
+    O1 -->|No| O2{"balance >= savings_goal?"}
+
+    O2 -->|Sí| P2[/"Mostrar: mes en que se alcanzó la meta = months"/]
+    O2 -->|No| Q["shortfall = savings_goal - balance"]
 
     Q --> R[/"Mostrar: monto que faltó = shortfall"/]
-    P --> S[/"Mostrar: balance final = balance"/]
+    P1 --> S[/"Mostrar: balance final = balance"/]
+    P2 --> S
     R --> S
     S --> T([Fin])
 
-    linkStyle default stroke-width:3px
-    classDef default stroke-width:3px
+    linkStyle default stroke-width:4px
+    classDef default stroke-width:4px
 ```

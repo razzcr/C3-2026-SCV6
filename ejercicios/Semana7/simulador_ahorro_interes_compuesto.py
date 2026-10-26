@@ -19,7 +19,9 @@ while balance < savings_goal and months < MAX_MONTHS:
     print("Meses de Ahorro:", months)
     print(f"Balance de Ahorro: ₡{balance:.2f}")
 
-if balance >= savings_goal:
+if balance >= savings_goal and months == 0:
+    print("El ahorro ya cumple la meta")
+elif balance >= savings_goal:
     print("Se alcanzó la meta de ahorro en el mes", months)
 else:
     shortfall = savings_goal - balance
