@@ -6,21 +6,21 @@
 # Versión: 1.0
 # Descripción: Menú repetitivo de exploración científica
 # Repo: https://github.com/razzcr/C3-2026-SCV6/tree/main/mision-orbita
-# ==========================================================================
+# =========================================================================
 
-# ======================== Lectura de datos iniciales ======================
+# ======================== Lectura de datos iniciales =====================
 
 energia = int(input("Ingrese energía disponible: "))
 provisiones = int(input("Ingrese provisiones disponibles: "))
 
-# ======== Variables de control / acumuladores ==============================
+# ======== Variables de control / acumuladores ============================
 
 puntos_cientificos = 0
 actividades_realizadas = 0
 muestras_recolectadas = 0
 continuar = True  # controla el ciclo while
 
-# ============================ Ciclo del menú ==============================
+# ============================ Ciclo del menú =============================
 while continuar:
     print("=" * 50)
     print("MENÚ DE EXPLORACIÓN CIENTÍFICA")
@@ -80,8 +80,7 @@ while continuar:
             continuar = False
 
     elif opcion == 4:
-        # Finalizar es una salida controlada: a diferencia de "recursos
-        # insuficientes", aquí la tripulación decide terminar por su cuenta.
+        # Finalizar es una salida controlada: a diferencia de "recursos insuficientes" aquí la tripulación decide terminar por su cuenta.
         continuar = False
         print("Exploración finalizada por la tripulación.")
     else:
