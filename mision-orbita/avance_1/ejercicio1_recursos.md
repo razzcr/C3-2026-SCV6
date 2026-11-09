@@ -1,4 +1,5 @@
 ```mermaid
+flowchart TD
     A(["Inicio"]) --> B[/"Leer nombre_mision"/]
     B --> C[/"Leer cantidad_tripulantes (int)"/]
     C --> D[/"Leer dias_viaje (int)"/]
