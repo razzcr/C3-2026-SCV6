@@ -42,8 +42,10 @@ if combustible_disponible >= combustible_necesario:
             dia = dia + 1
 
     if viaje_exitoso == True:
+        print("=" * 50)
         print("El viaje fue exitoso, pues completó los días de viaje sin interrupciones")
     else:
+        print("=" * 50)
         print("El viaje no ha sido exitoso, pues se agotó alguno de los recursos.")
 else:
     # ===== CASO B: tripulacion varada =====
@@ -59,7 +61,9 @@ else:
     else:
         supervivencia = dias_provisiones
 
+    print("=" * 50)
     print(f"La tripulación puede sobrevivir {supervivencia} días.")
+    print("=" * 50)
     print("El/los recurso(s) limitante(s) es/son:")
     # if independientes (no elif) para reportar TODOS los empates
     if dias_oxigeno == supervivencia:
