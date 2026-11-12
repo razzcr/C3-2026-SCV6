@@ -42,7 +42,7 @@ def clasificar_margen(disponible, requerido):
 def leer_entero_positivo(mensaje):
     valor = 0  # en 0 para que el while entre la primera vez
     while valor < 1:
-        # try: intenta convertir; int() falla si no es un entero (letras, decimales, vacio)
+        # try: intenta convertir; int() falla si no es un entero
         try:
             valor = int(input(mensaje))
             if valor < 1:
